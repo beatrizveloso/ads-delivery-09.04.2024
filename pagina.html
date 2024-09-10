@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somar</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script>
+        function calc(){
+            var num1 = parseInt(document.getElementById('idNum1').value)
+            var num2 = parseInt(document.getElementById('idNum2').value)
+            soma = num1 + num2
+            document.getElementById('idResult').value = soma
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <label> Número 1 </label>
+        <input type="text" id="idNum1" size="5">
+        <br> <br>
+        <label> Número 2 </label>
+        <input type="text" id="idNum2">
+        <br> <br>
+        <label> Resultado </label>
+        <input type="text" id="idResult" size="5">
+        <br> <br>
+        <input type="button" value="Somar" onclick="calc()">
+    </form>
+</body>
+</html>

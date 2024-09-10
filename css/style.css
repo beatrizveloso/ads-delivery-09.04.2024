@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.style{
+    padding-left: 20px;
+    padding: 10px;
+}
+
+h1{
+    color: #244249;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+body{
+    width: 100%;
+    background-color: #fab4b6;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    background-color: #f9ded3;
+    border-radius: 8px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+label{
+    padding-left: 20px;
+}
+
+select{
+    width: 200px;
+    height: 40px;
+    background-color: #f9ded3;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+textarea{
+    width: 250px;
+    height: 120px;
+    background-color: #f9ded3;
+    border-radius: 8px;
+    padding: 10px;
+}
